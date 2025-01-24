@@ -1,69 +1,3 @@
-** start of undefined **
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>FORMULAIRE D'ENQUETE COTE D'IVOIRE TOURISME</title>
-    <link
-href="styles.css" rel="stylesheet"/>
-</head>
-<body>
-    <h1 id="title">FORMULAIRE D'ENQUETE COTE D'IVOIRE TOURISME</h1>
-    <p id="description">Ce formulaire nous servira dans le développement du tourisme ivoirien.</p>
-    <form id="survey-form" method="post" action='https://formulaire-tourisme-ivoirien.freecodecamp.org'>
-        <fieldset>
-            <label id="name-label" for="name">Nom
-                <input id="name" type="text" name="name" placeholder="Entrez votre nom" required />
-            </label>
-            <label id="email-label" for="email">E-mail
-                <input id="email" type="email" name="email" placeholder="Entrez votre email" required />
-            </label>
-            <label id="number-label" for="number">Âge
-                <input id="number" type="number" name="number" min="0" max="120" placeholder="âge" required />
-            </label>
-            <label for="referrer">Profession
-                <select id="dropdown" name="dropdown">
-                    <option value="">(choisir)</option>
-                    <option value="1">Elève</option>
-                    <option value="2">Etudiant</option>
-                    <option value="3">Travailleur</option>
-                    <option value="4">Autres</option>
-                </select>
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>À votre avis, comment faut-il promouvoir la destination CÔTE D'IVOIRE ?</legend>
-            <label for="publicité">
-                <input id="publicité" type="radio" name="avis" value="publicité" />Publicité
-            </label>
-            <label for="affiche">
-                <input id="affiche" type="radio" name="avis" value="affiche" />Affiche
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>Quels atouts touristiques de la CÔTE D'IVOIRE doivent être mis en avant ?</legend>
-            <label for="lacs&fleuves">
-                <input id="lacs&fleuves" type="checkbox" name="water" value="lacs&fleuves" />Lacs & Fleuves
-            </label>
-            <label for="lieux_historiques">
-                <input id="lieux_historiques" type="checkbox" name="wall" value="lieux_historiques" />Lieux Historiques
-            </label>
-        </fieldset>
-        <fieldset>
-            <label for="personnel">Donner votre avis personnel
-                <textarea id="personnel" name="personnel" placeholder="Je pense que..."></textarea>
-            </label>
-        </fieldset>
-        <input id="submit" type="submit" value="Submit" />
-    </form>
-</body>
-</html>
-
-** end of undefined **
-
-** start of undefined **
-
 body {
     background-image: url(https://lh5.googleusercontent.com/p/AF1QipM_oouVk4jymeCrpXLY1HE6GGl3NmuWRgWPFNHj=w540-h312-n-k-no);
     font-family: 'Arial', sans-serif;
@@ -166,6 +100,4 @@ input[type="submit"]:hover {
         padding: 15px 20px;
     }
 }
-
-** end of undefined **
 
